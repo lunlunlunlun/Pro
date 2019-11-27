@@ -14,7 +14,7 @@
             <artifactId>commons-rng</artifactId>
             <scope>system</scope>
             <version>1.2</version>
-            <systemPath>${basedir}/src/commons-rng-1.2/</systemPath>
+            <systemPath>${basedir}/src/commons-rng-1.2.jar/</systemPath>
         </dependency>
 
 </project>
