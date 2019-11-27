@@ -11,11 +11,37 @@
     <dependencies>
         <dependency>
             <groupId>org.apache.commons.rng</groupId>
-            <artifactId>commons-rng</artifactId>
+            <artifactId>commons-rng-client-api</artifactId>
             <scope>system</scope>
             <version>1.2</version>
-            <systemPath>${basedir}/src/commons-rng-1.2.jar/</systemPath>
+            <systemPath>${basedir}/src/commons-rng-1.2/commons-rng-client-api-1.2.jar/</systemPath>
         </dependency>
+             
+              <dependency>
+            <groupId>org.apache.commons.rng</groupId>
+            <artifactId>commons-rng-client-api-sources</artifactId>
+            <scope>system</scope>
+            <version>1.2</version>
+            <systemPath>${basedir}/src/commons-rng-1.2/commons-rng-client-api-1.2-sources.jar/</systemPath>
+        </dependency>
+             
+              <dependency>
+            <groupId>org.apache.commons.rng</groupId>
+            <artifactId>commons-rng-simple</artifactId>
+            <scope>system</scope>
+            <version>1.2</version>
+            <systemPath>${basedir}/src/commons-rng-1.2/commons-rng-simple-1.2.jar/</systemPath>
+        </dependency>
+             
+              <dependency>
+            <groupId>org.apache.commons.rng</groupId>
+            <artifactId>commons-rng-simple-sources</artifactId>
+            <scope>system</scope>
+            <version>1.2</version>
+            <systemPath>${basedir}/src/commons-rng-1.2/commons-rng-simple-1.2-sources.jar/</systemPath>
+        </dependency>
+             
     </dependencies>
 
+         
 </project>
