@@ -25,15 +25,6 @@ class danyuanceshi1integTest {
                 }
             }
         }
-        boolean f=true;
-        for(i=0;i<10;i++)
-        {
-            if(arr[i]>100)
-            {
-                f=false;
-                break;
-            }
-        }
-        assertEquals(true,f);
+        assertEquals(1,check_class1.check(arr));
     }
 }

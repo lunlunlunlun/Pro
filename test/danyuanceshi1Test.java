@@ -20,7 +20,7 @@ class danyuanceshi1Test {
                 break;
             }
         }
-        assertEquals(false,f);
+        assertEquals(true,f);
     }
 
     @Test
@@ -47,7 +47,7 @@ class danyuanceshi1Test {
         int[] arr = new int[10];
         check_class3.crea_num(arr);
         check_class3.bubblesort(arr);
-        assertEquals(0,check_class3.check(arr));
+        assertEquals(1,check_class3.check(arr));
     }
 
     @Test

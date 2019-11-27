@@ -19,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TEhXhd2xilPC0yq1AR1ra4boR0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -31,7 +35,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -54,6 +58,14 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.danyuanceshi1integTest">
+    <configuration name="All in danyuanceshi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="danyuanceshi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="danyuanceshi1Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="danyuanceshi" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,16 +84,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="danyuanceshi1Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="danyuanceshi1Test.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="danyuanceshi" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="danyuanceshi1Test" />
-      <option name="METHOD_NAME" value="check" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,10 +110,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.danyuanceshi1integTest" />
+        <item itemvalue="JUnit.danyuanceshi1Test" />
+        <item itemvalue="JUnit.All in danyuanceshi" />
         <item itemvalue="JUnit.danyuanceshi1Test (1)" />
         <item itemvalue="JUnit.danyuanceshi1Test.main" />
-        <item itemvalue="JUnit.danyuanceshi1Test" />
-        <item itemvalue="JUnit.danyuanceshi1Test.check" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +130,21 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/danyuanceshi$All_in_danyuanceshi.ic" NAME="All in danyuanceshi Coverage Results" MODIFIED="1574850557788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/danyuanceshi$danyuanceshi1Test_main.ic" NAME="danyuanceshi1Test.main Coverage Results" MODIFIED="1574651481047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/danyuanceshi$danyuanceshi1Test__1_.ic" NAME="danyuanceshi1Test (1) Coverage Results" MODIFIED="1574651947090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/danyuanceshi$danyuanceshi1Test.ic" NAME="danyuanceshi1Test Coverage Results" MODIFIED="1574651377286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
